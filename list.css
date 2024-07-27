@@ -1,0 +1,29 @@
+html{
+    /*center the text of the whole page*/
+    text-align: center;
+    /*changes the colour of the entire page to grey*/
+    background-color: lightgrey;
+}
+
+h1{
+    /*making the words Grocery List into Italics*/
+    font-style: italic;
+    /*changes the colour of the h1 text to darkblue*/
+    color: darkblue;
+    /*the bottom padding creates a space between the input box and the title of the list*/
+    padding-bottom: 0.5cm;
+
+}
+
+li{
+    /*makes the bullet points follow the text when it gets centered*/
+    list-style-position: inside;
+
+    /*underlines all items added to the list*/
+    text-decoration: underline;
+    
+}
+
+.line-through {
+    text-decoration: line-through;
+}
